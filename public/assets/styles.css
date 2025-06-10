@@ -1,0 +1,129 @@
+.banner img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+    border-bottom: 4px solid #ccc;
+}
+
+.filme-info {
+    padding: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.carousel-caption {
+    color: whitesmoke !important;
+}
+
+#carouselExampleCaptions {
+    transition: opacity 0.5s ease;
+}
+
+.hidden-carrossel {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: #212529 !important;
+    border: 1px solid #495057 !important;
+}
+
+.card, .card-text {
+    color: white !important;
+}
+
+.card-text.text-muted {
+    color: white !important;
+}
+
+.card .btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.dropdown-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.dropdown-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.profile-text {
+  font-family: "Sen", sans-serif;
+  font-size: 14px;
+}
+
+.dropdown-icon {
+  transition: transform 0.3s ease;
+  font-size: 12px;
+}
+
+.custom-dropdown:hover .dropdown-icon {
+  transform: rotate(180deg);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #111;
+  min-width: 180px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  z-index: 1001;
+  border-radius: 4px;
+  list-style: none;
+  padding: 8px 0;
+  margin-top: 5px;
+  border: 1px solid #333;
+}
+
+.custom-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-item {
+  background: none;
+  border: none;
+  color: white;
+  width: 100%;
+  text-align: left;
+  padding: 10px 16px;
+  font-family: "Sen", sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: block;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(44, 107, 47, 0.5);
+  color: white;
+}
+
+.divider {
+  height: 1px;
+  background: #333;
+  margin: 8px 0;
+}

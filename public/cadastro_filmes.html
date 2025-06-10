@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cadastro de Filmes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="/assets/css/cadastro_filmes.css" />
+</head>
+
+<body onload="init()" class="bg-dark">
+    <h1 class="text-center text-white" style="margin-top: 30px;">Cadastro de Filmes (CRUD)</h1>
+
+    <div class="container">
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1" aria-live="polite"></div>
+        </div>
+
+        <form id="form-filme">
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="inputId" class="text-white">Id</label>
+                    <input type="text" class="form-control" id="inputId" disabled />
+                </div>
+                <div class="col-sm-8">
+                    <label for="inputTitulo" class="text-white">Título (*)</label>
+                    <input type="text" class="form-control" id="inputTitulo" required />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-5">
+                    <label for="inputDiretor" class="text-white">Diretor (*)</label>
+                    <input type="text" class="form-control" id="inputDiretor" required />
+                </div>
+                <div class="col-sm-7">
+                    <label for="inputLancamento" class="text-white">Lançamento (*)</label>
+                    <input type="text" class="form-control" id="inputLancamento" required />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-6">
+                    <label for="inputGeneros" class="text-white">Gêneros (*)</label>
+                    <input type="text" class="form-control" id="inputGeneros" />
+                </div>
+                <div class="col-sm-6">
+                    <label for="inputSinopse" class="text-white">Sinopse</label>
+                    <input type="text" class="form-control" id="inputSinopse" required />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <label for="inputImagem" class="text-white">Imagem (*)</label>
+                    <input type="text" class="form-control" id="inputImagem" required />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4 text-white">
+                    <small>(*) Campos obrigatórios</small>
+                </div>
+            </div>
+            <div class="form-group row my-2">
+                <div class="col-sm-12 d-flex flex-wrap gap-2">
+                    <input type="button" class="btn btn-success" id="btnInsert" value="Inserir" />
+                    <input type="button" class="btn btn-warning" id="btnUpdate" value="Alterar" />
+                    <input type="button" class="btn btn-danger" id="btnDelete" value="Excluir" />
+                    <input type="button" class="btn btn-secondary" id="btnClear" value="Limpar Form" />
+                    <a href="/public/search.html" class="btn btn-warning">Pesquisar filmes</a>
+                </div>
+            </div>
+        </form>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="grid-filmes" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Título</th>
+                            <th>Diretor</th>
+                            <th>Lançamento</th>
+                            <th>Gêneros</th>
+                            <th>Sinopse</th>
+                            <th>Imagem</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-filmes"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer id="contato" class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 ManuFlix - Catálogo de Filmes</p>
+        </div>
+    </footer>
+
+    <script src="/assets/scripts/cadastro_filmes.js"></script>
+</body>
+
+</html>

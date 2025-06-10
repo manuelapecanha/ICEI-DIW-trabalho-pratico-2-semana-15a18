@@ -1,0 +1,127 @@
+{
+  "filmes": [
+    {
+      "id": "1",
+      "titulo": "The Substance",
+      "sinopse": "Elisabeth Sparkle, renomada por um programa de aeróbica, enfrenta um golpe devastador quando seu chefe a demite. Em meio ao seu desespero, um laboratório lhe oferece uma substância que promete transformá-la em uma versão aprimorada.",
+      "generos": [
+        "Terror",
+        " Ficção"
+      ],
+      "duracao": 140,
+      "classificacao": 18,
+      "avaliacao": 3.5,
+      "origem": "Reino Unido",
+      "diretor": "Coralie Fargeat",
+      "lancamento": 2024,
+      "elenco": "Demi Moore, Margaret Qualley, Dennis Quaid, Hugo Diego Garcia, Alexandra Papoulias, Oscar Lesage, Robin Greer, Tiffany Hofstetter.",
+      "imagem": "/assets/images/thesubstance.jpg"
+    },
+    {
+      "id": "2",
+      "titulo": "Ainda Estou Aqui",
+      "sinopse": "No início da década de 1970, o Brasil enfrenta o endurecimento da ditadura militar. No Rio de Janeiro, a família Paiva vive à beira da praia em uma casa de portas abertas para os amigos. Um dia, Rubens Paiva é levado por militares e desaparece. Eunice, sua esposa, busca a verdade e traça um novo futuro para os filhos.",
+      "generos": [
+        "Drama",
+        " Histórico"
+      ],
+      "duracao": 135,
+      "classificacao": 14,
+      "avaliacao": 4.1,
+      "origem": "Brasil",
+      "diretor": "Walter Salles",
+      "lancamento": 2024,
+      "elenco": "Fernanda Torres, Valentina Herszage, Fernanda Montenegro, Selton Mello, Ólivia Torres, Bárbara Luz e Maitê Padilha.",
+      "imagem": "/assets/images/aindaestouaqui.jpg"
+    },
+    {
+      "id": "3",
+      "titulo": "Wicked",
+      "sinopse": "Na Terra de Oz, Elphaba forma uma amizade com Glinda. Após um encontro com o Mágico de Oz, o relacionamento delas é posto à prova.",
+      "generos": [
+        "Musical",
+        " Fantasia"
+      ],
+      "duracao": 160,
+      "classificacao": 10,
+      "avaliacao": 4.1,
+      "origem": "Estados Unidos",
+      "diretor": "Jon M. Chu",
+      "lancamento": 2024,
+      "elenco": "Ariana Grande, Cynthia Erivo, Jonathan Bailey, Ethan Slater, Michelle Yeon, Jeff Goldblum, Peter Dinklage e Marissa Bode.",
+      "imagem": "/assets/images/wicked.jpg"
+    },
+    {
+      "id": "4",
+      "titulo": "Divertidamente 2",
+      "sinopse": "Riley agora é adolescente. Junto com novas experiências, surgem novas emoções que causam mudanças na sala de controle.",
+      "generos": [
+        "Infantil",
+        " Comédia"
+      ],
+      "duracao": 96,
+      "classificacao": 0,
+      "avaliacao": 3.5,
+      "origem": "Estados Unidos",
+      "diretor": "Kelsey Mann",
+      "lancamento": 2024,
+      "elenco": "Maya Hawke, Ayo Ederibi, Adele Exarchopoulos, Lilimar, Liza Lapira, Tony Hale, Kensington Tallman e Amy Poehler.",
+      "imagem": "/assets/images/divertidamente2.jpg"
+    },
+    {
+      "id": "5",
+      "titulo": "Deadpool e Wolverine",
+      "sinopse": "Wolverine está se recuperando quando cruza o caminho de Deadpool. Juntos, enfrentam um inimigo em comum.",
+      "generos": [
+        "Ação",
+        " Comédia"
+      ],
+      "duracao": 128,
+      "classificacao": 18,
+      "avaliacao": 4.4,
+      "origem": "Estados Unidos",
+      "diretor": "Shawn Levy",
+      "lancamento": 2024,
+      "elenco": "Ryan Reynolds, Leslie Uggams, Emma Corin, Hugh Jackman, Dafne Keen, Channing Tatum, Chris Evans e Jennifer Garner.",
+      "imagem": "/assets/images/deadpoolwolverine.jpg"
+    },
+    {
+      "id": "6",
+      "titulo": "Duna 2",
+      "sinopse": "Paul Atreides busca vingança contra os conspiradores que destruíram sua família. Ele enfrenta uma escolha entre o amor e o destino do universo.",
+      "generos": [
+        "Aventura",
+        " Ficção Científica"
+      ],
+      "duracao": 140,
+      "classificacao": 14,
+      "avaliacao": 4.6,
+      "origem": "Canadá",
+      "diretor": "Denis Villeneuv",
+      "lancamento": 2024,
+      "elenco": "Justin Butler, Florence Pugh, Timothée Chalamet, Léa Seydoux, Zendaya, Rebecca Ferguson, Stellan Skarsgard e Christopher Walken.",
+      "imagem": "/assets/images/duna2.jpg"
+    },
+    {
+      "id": "ba2b",
+      "titulo": "Fight Club",
+      "diretor": "David Fincher",
+      "lancamento": "1999",
+      "generos": [
+        "Crime",
+        "Ficção"
+      ],
+      "sinopse": "Um homem deprimido que sofre de insônia conhece um estranho vendedor chamado Tyler Durden e se vê morando em uma casa suja depois que seu perfeito apartamento é destruído. A dupla forma um clube com regras rígidas onde homens lutam. A parceria perfeita é comprometida quando uma mulher, Marla, atrai a atenção de Tyler.",
+      "imagem": "/assets/images/fightclub.jpg"
+    },
+    {
+      "titulo": "Lilo e Stitch",
+      "diretor": "Dean Fleischer Camp",
+      "lancamento": "22 de Maio de 2025",
+      "generos": "Comédia, Fiçção Científica",
+      "sinopse": "Stitch, um alienígena, chega ao planeta Terra após fugir de sua prisão e tenta se passar por um cachorro para se camuflar. As coisas mudam quando Lilo, uma travessa menina, o adota de um abrigo de animais. Juntos, eles aprendem os valores da amizade e família",
+      "imagem": "/assets/images/lilo.stitch.webp",
+      "id": "Wpp3VFY"
+    }
+  ]
+}
